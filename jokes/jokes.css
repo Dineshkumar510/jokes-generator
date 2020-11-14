@@ -1,0 +1,43 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background: #ADA996;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #EAEAEA, #DBDBDB, #F2F2F2, #ADA996); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    justify-content: center;
+}
+
+p {
+    text-align: center;
+    justify-content: center; 
+}
+
+#Mainbtn, #refresh{
+    background-color: #4CAF50;
+    border: 3px solid #4CAF50;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+    width: inherit;
+    text-shadow: 4px 4px 3px rgba(77, 77, 77, 0.5);
+    box-shadow: 14px 14px rgba(77, 77, 77, 0.1);
+    cursor: pointer;
+    border-radius: 4%;
+    transition: transform 0.4s, box-shadow 0.4s;
+  }
+  
+  #Mainbtn:hover, #refresh:hover{
+    box-shadow: 14px 14px rgba(77, 77, 77, 0.5);
+  }
+  
+  #Mainbtn:active, #refresh:active {
+    transform: translate3d(7px, 7px, 0px);
+    box-shadow: 7px 7px rgba(77, 77, 77, 0.5);
+  }
